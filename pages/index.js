@@ -6,15 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>SWRP</title>
+        <title>SW Realty Partners</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header title="SW Realty Partners" />
-        <p className="description">
-          Website is currently under development
-          Coming ~ 2025
+        <p className="description">Website is currently under development</p>
+        <p className="description">Coming ~ 2025</p>
         </p>
       </main>
 
