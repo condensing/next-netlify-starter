@@ -4,6 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+    <img src="/logo.png" alt="Logo" className="corner-logo" />
     <div className="container">
       <Head>
         <title>SW Realty Partners</title>
