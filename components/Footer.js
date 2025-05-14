@@ -1,11 +1,14 @@
 import styles from './Footer.module.css'
 
-export default function Footer() {
+import React from 'react';
+
+const Footer = () => {
   return (
-    <>
-      <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
-      </footer>
-    </>
-  )
-}
+    <footer className="text-center py-4 bg-gray-100 text-gray-700 text-sm">
+      &copy; 2025 SWRP. All rights reserved.
+    </footer>
+  );
+};
+
+export default Footer;
+
