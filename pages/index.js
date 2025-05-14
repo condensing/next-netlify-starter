@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="SW Realty Partners" />
         <p className="description">
-          Website is currently under development <code>SWRP</code>
+          Website is currently under development
         </p>
       </main>
 
