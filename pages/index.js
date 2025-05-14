@@ -13,8 +13,7 @@ export default function Home() {
       <main>
         <Header title="SW Realty Partners" />
         <p className="description">Website is currently under development</p>
-        <p className="description" style={{ fontSize: '0.875rem', opacity: 0.8 }}>
-  Coming ~ 2025</p>
+        <p className="description" style={{ fontSize: '0.875rem', opacity: 0.8 }}>Coming ~ 2025</p>
       </main>
 
       <Footer />
