@@ -1,15 +1,16 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export default function Home() {
   return (
-    <img src="/logo.png" alt="Logo" className="corner-logo" />
     <div className="container">
       <Head>
         <title>SW Realty Partners</title>
-        <link rel="icon" href="public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <img src="/logo.png" alt="Logo" className="corner-logo" />
 
       <main>
         <Header title="SW Realty Partners" />
