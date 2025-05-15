@@ -5,7 +5,7 @@ import Footer from '@components/Footer';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container"> style={{ position: 'relative' }}>
       <Head>
         <title>SW Realty Partners</title>
         <link rel="icon" href="/favicon.ico" />
