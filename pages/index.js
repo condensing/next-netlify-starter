@@ -11,7 +11,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img src="/logo.png" alt="Logo" className="corner-logo" />
+      <header style={{
+        position: 'absolute',
+        top: '20px',
+        right: '20px',
+        zIndex: 1000
+      }}>
+        <Image
+          src="public/logo.png"
+          alt="Company Logo"
+          width={60}
+          height={60}
+        />
+      </header>
 
       <main>
         <Header title="SW Realty Partners" />
